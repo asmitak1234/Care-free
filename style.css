@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(246, 210, 246);
+}
+.nav{
+    background-color:rgb(240, 231, 214);
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+#side{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    margin-right: 10px;
+}
+#logo{
+    background-image: url(logo.png);
+   background-size: contain;
+    height: 80px;
+    width: 200px;
+    background-repeat: no-repeat;
+
+}
+.navlang{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    background-color: rgb(240, 231, 214);
+    height:50px ;
+    width: 75px;
+    color: black;
+    font-size: 14px;
+}
+.lang-icon{
+    height: 16px;
+    width: 21px;   
+    color: black;
+}
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    width: 400px;
+    height: 40px;
+    border-radius: 20%;
+}
+.search-select{
+        background-color: #f3f3f3;
+        width: 50px;
+        text-align: center;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border: none;
+}
+.search-input{
+        width: 100%;
+        font-size: 1rem;
+        border: none;
+}
+.search-cut{
+    display: flex;
+    background-color: #f3f3f3;
+    width: 25px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.search-icon{
+        width: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        background-color: rgb(246, 210, 246);
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        color: #0f1111;
+}
+.cir{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.cir:hover{
+    opacity: 0.6;
+}
+.cart i{
+    font-size: 30px;
+}
+.cart{
+        font-size: 0.85rem;
+        font-weight: 700;
+}
+.user i{
+    font-size: 30px;
+    }
+.user{
+        font-size: 0.85rem;
+        font-weight: 700;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 20px;
+    background-color:rgb(240, 231, 214);
+    height: 200px;
+    width: 100%;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(240, 231, 214);
+    color: black;
+}
+.copyright{
+    position: fixed;
+    right: 5px;
+}
